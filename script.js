@@ -36,8 +36,8 @@ async function checkWeather(city) {
         else if (data.weather[0].main == "Mist") {
             weatherIcon.src = "mist.png";
         }
-        document.querySelector(".error").style.display = "block";
-        document.querySelector(".weather").style.display = "none";
+        document.querySelector(".error").style.display = "none";
+        document.querySelector(".weather").style.display = "block";
         
     
     
